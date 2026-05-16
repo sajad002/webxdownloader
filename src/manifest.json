@@ -5,15 +5,15 @@
     "downloads",
     "storage",
     "tabs",
-    "webRequest",
+    "webRequest"
+  ],
+  "host_permissions": [
     "https://*.webex.com/*",
     "https://api.github.com/repos/jacopo-j/webxdownloader/releases/latest"
   ],
   "homepage_url": "https://github.com/jacopo-j/WebXDownloader",
   "background": {
-    "scripts": [
-      "background.js"
-    ]
+    "service_worker": "background.js"
   },
   "content_scripts": [
     {
@@ -26,12 +26,12 @@
       "run_at": "document_end"
     }
   ],
-  "browser_action": {
+  "action": {
     "default_icon": "icon.png",
     "default_title": "WebXDownloader",
     "default_popup": "popup.html"
   },
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "WebXDownloader",
   "icons": {
     "128": "icon.png"

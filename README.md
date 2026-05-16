@@ -1,4 +1,6 @@
-# WebXDownloader
+# WebXDownloader (Manifest V3 Updated)
+
+> **Note:** This is an updated fork of the original WebXDownloader, migrated to Manifest V3 to ensure compatibility with modern versions of Google Chrome.
 
 This is a browser extension that helps downloading Webex meeting recordings. It adds a button to the video playback controls that enables downloading of the recording in mp4 format. It also provides the direct URL to the HSL stream and allows the chat transcript to be saved in JSON or plain text format.
 
@@ -8,20 +10,20 @@ This is a browser extension that helps downloading Webex meeting recordings. It 
 
 ### Firefox (recommended)
 
-Download the `.xpi` file from the [latest release](https://github.com/jacopo-j/WebXDownloader/releases) and drag it to any Firefox window to install.
+Download the `.xpi` file from the [latest release](https://github.com/sajad002/WebXDownloader/releases) and drag it to any Firefox window to install.
 
 ### Google Chrome
 
-* Download the `.zip` file from the [latest release](https://github.com/jacopo-j/WebXDownloader/releases)
+* Download the `.zip` file from the [latest release](https://github.com/sajad002/WebXDownloader/releases)
 * Extract the zip file
 * Browse to `chrome://extensions`
 * Turn on "Developer mode" on the top right
-* Click "Load unpacked extension..." on the top left
-* Select the folder named `src` from the folder to which your zip file was extracted.
+* Click "Load unpacked" on the top left
+* Select the main folder to which your zip file was extracted.
 
 ### Safari (experimental)
 
-1. Download the `.dmg` file from the [latest release](https://github.com/jacopo-j/WebXDownloader/releases)
+1. Download the `.dmg` file from the [latest release](https://github.com/sajad002/WebXDownloader/releases)
 2. Mount the disk image by double clicking it
 3. Drag the WebXDownloader app to your Applications folder
 4. Open the app once (right click > open)
